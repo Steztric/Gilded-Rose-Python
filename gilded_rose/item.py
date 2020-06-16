@@ -3,6 +3,7 @@ class Item:
         self.name = name
         self.sell_in = sell_in
         self.quality = quality
+        self.conjured = False
 
     def __repr__(self):
         return "%s, %s, %s" % (self.name, self.sell_in, self.quality)
